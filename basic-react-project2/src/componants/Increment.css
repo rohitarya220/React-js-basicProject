@@ -1,0 +1,44 @@
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    height: 87vh;
+}
+.container{
+border: 1px solid gray;
+padding: 30px;
+border-radius: 8px;
+background-color: rgb(38, 38, 143);
+box-shadow: 8px 5px 1px 3px  rgb(247, 246, 246);
+
+color: white;
+width: fit-content;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.num{
+    font-size: 70px;
+    font-weight: bold;
+}
+.btn{
+    margin: 5px;
+    padding: 9px;
+    background-color: rgb(255, 136, 0);
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1.5px 1px 1px  rgb(246, 240, 240);
+    transition: all ease-in-out;
+}
+
+.btn:hover{
+    background-color: rgba(248, 164, 68, 0.937);
+    cursor: pointer;
+
+}
